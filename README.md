@@ -4,6 +4,17 @@ An enterprise-grade Business Intelligence (BI) and Data Analytics solution engin
 
 ---
 
+## 💾 Dataset Architecture & Core Features
+The project ingest an **Enterprise Global E-Commerce & Retail Sales Transactional Dataset** comprising thousands of raw operational ledgers. The data structure captures the complete lifecycle of end-to-end retail fulfillment divided into the following attributes:
+
+* **Financial Transaction Matrix:** Tracks granular financial indicators: `Sales`, `Profit`, `Quantity`, `Unit Price`, and `Discount`.
+* **Customer Demographics:** Profiles consumer footprints through relational data: `Customer Name`, `City`, and operational `Region` (East, West, North, South).
+* **Product Line Classification:** Segments performance arrays across 2 critical structural tiers: `Category` (e.g., Electronics, Furniture, Home Decor) and `Sub-Category` (e.g., Sofa, Lamp, Smartwatch).
+* **Operational Meta-Data:** Includes localized parameters like `Payment Mode` (UPI, COD, Net Banking, Credit/Debit Card) and temporal timelines (`Year 2023 - 2025`).
+
+---
+---
+
 ## 🛠️ Data Engineering & Architecture Highlights
 The pipeline transforms raw operational records into optimized transactional models. The back-end structure is built using a rigid **Star Schema** optimized for high-performance query execution and seamless cross-filtering.
 
