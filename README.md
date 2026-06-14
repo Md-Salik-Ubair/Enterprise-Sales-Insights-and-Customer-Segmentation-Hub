@@ -13,7 +13,7 @@ The project ingest an **Enterprise Global E-Commerce & Retail Sales Transactiona
 * **Operational Meta-Data:** Includes localized parameters like `Payment Mode` (UPI, COD, Net Banking, Credit/Debit Card) and temporal timelines (`Year 2023 - 2025`).
 
 ---
-* **Source Dataset Registry:** The raw untransformed source file utilized for this data pipeline is preserved in the root repository folder as `Financial Sample.xlsx`.
+
 ---
 
 ## 🛠️ Data Engineering & Architecture Highlights
